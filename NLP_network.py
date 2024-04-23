@@ -25,7 +25,7 @@ datax = np.reshape(datax, (1198, 60, 1))
 x = datax / n_vocb
 
 from keras.utils import  to_categorical
-y+ to_categorical(datay)
+y = to_categorical(datay)
 
 #Create RNN
 from keras.models import Sequential
